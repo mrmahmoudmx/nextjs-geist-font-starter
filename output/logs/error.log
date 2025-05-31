@@ -1,0 +1,11 @@
+[2025-05-31T19:44:10.958Z] Scraping page https://pcgameskey.com/shop: Cannot read properties of undefined (reading 'load')
+TypeError: Cannot read properties of undefined (reading 'load')
+    at scrapePage (/project/sandbox/user-workspace/scripts/v2/scrapeProducts.ts:176:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async scrapeProducts (/project/sandbox/user-workspace/scripts/v2/scrapeProducts.ts:249:24)
+
+[2025-05-31T19:44:11.764Z] Main scraping process: Cannot read properties of undefined (reading 'load')
+TypeError: Cannot read properties of undefined (reading 'load')
+    at scrapeProducts (/project/sandbox/user-workspace/scripts/v2/scrapeProducts.ts:257:25)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+
